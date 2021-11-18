@@ -1,7 +1,7 @@
 {
   "name": "twind-typography",
   "version": "0.1.0",
-  "description": "Plugin for twind to allow for prose class",
+  "description": "A plugin to add support for the `prose` class from tailwind in twind",
   "main": "src/index.ts",
   "scripts": {
     "prettier": "prettier --check src/",
