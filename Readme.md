@@ -4,9 +4,16 @@
 
 ## Usage
 
-In your twind config
+1. Installation
+
+```bash
+npm i twind-typography
+```
+
+2. In your twind config
 
 ```ts
+import { setup } from 'twind'
 import typography from 'twind-typography'
 
 setup({
