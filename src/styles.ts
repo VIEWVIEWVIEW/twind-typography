@@ -93,12 +93,6 @@ export const styles = ({
           color: theme('colors', ['gray', '100']),
           fontWeight: '600'
         },
-        'code::before': {
-          content: '"`"'
-        },
-        'code::after': {
-          content: '"`"'
-        },
         'a code': {
           color: theme('colors', ['gray', '100'])
         },
