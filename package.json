@@ -1,6 +1,6 @@
 {
   "name": "twind-typography",
-  "version": "0.2.0",
+  "version": "1.2.0",
   "description": "A plugin to add support for the `prose` class from tailwind in twind",
   "main": "src/index.ts",
   "scripts": {
