@@ -91,13 +91,8 @@ export const styles = ({
         },
         code: {
           color: theme('colors', ['gray', '100']),
+          backgroundColor: theme('colors', ['gray', '800']),
           fontWeight: '600'
-        },
-        'code::before': {
-          content: '"`"'
-        },
-        'code::after': {
-          content: '"`"'
         },
         'a code': {
           color: theme('colors', ['gray', '100'])
@@ -215,7 +210,8 @@ export const styles = ({
           marginTop: em(12, 14)
         },
         code: {
-          fontSize: em(14, 16)
+          fontSize: em(14, 16),
+          borderRadius: rem(4),
         },
         'h2 code': {
           fontSize: em(21, 24)
