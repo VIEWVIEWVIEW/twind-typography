@@ -2,12 +2,14 @@
 
 > A plugin to add support for the `prose` class from tailwind in twind
 
+**This project is forked from [pathetic geek's repo](https://github.com/patheticGeek/twind-typography) and comes with default tailwind prose (instead of dark mode).**
+
 ## Usage
 
-1. Installation
+1. Import
 
-```bash
-npm i twind-typography
+```typescript
+import typography from "https://esm.sh/@viewviewview/twind-typography" 
 ```
 
 2. In your twind config

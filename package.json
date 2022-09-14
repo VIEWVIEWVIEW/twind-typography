@@ -1,6 +1,6 @@
 {
-  "name": "twind-typography",
-  "version": "1.2.0",
+  "name": "@viewviewview/twind-typography",
+  "version": "0.0.2",
   "description": "A plugin to add support for the `prose` class from tailwind in twind",
   "main": "src/index.ts",
   "scripts": {
@@ -13,7 +13,7 @@
     "verify:fix": "yarn prettier:fix && yarn lint:fix",
     "build": "tsup src/* --env.NODE_ENV production --dts-resolve"
   },
-  "author": "Pathetic Geek",
+  "author": "viewviewview forked from Pathetic Geek",
   "license": "MIT",
   "devDependencies": {
     "@types/node": "^15.6.2",
@@ -62,5 +62,9 @@
   ],
   "peerDependencies": {
     "twind": "^0.16.16"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/VIEWVIEWVIEW/twind-typography"
   }
 }
