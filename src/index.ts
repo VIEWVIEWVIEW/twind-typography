@@ -43,7 +43,6 @@ const typography = ({ className = 'prose' }: Options = {}): Record<
     )
 
     if (overwriteCss.css) {
-      console.log('overwriteCss', overwriteCss)
       Object.entries(overwriteCss.css).forEach(([property, value]) => {
         const key =
           value != null && typeof value === 'object' && !Array.isArray(value)
