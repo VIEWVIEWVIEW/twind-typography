@@ -4,6 +4,9 @@
 
 **This project is forked from [pathetic geek's repo](https://github.com/patheticGeek/twind-typography) and comes with default tailwind prose (instead of dark mode).**
 
+Package on npm: https://www.npmjs.com/package/@viewviewview/twind-typography
+
+
 ## Usage
 
 1. Import
